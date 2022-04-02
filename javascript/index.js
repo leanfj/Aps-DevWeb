@@ -68,7 +68,7 @@ if ($formLogin) {
     ) {
       alert('Senha / Email incorreto')
     } else {
-      window.location.replace('Aps-DevWeb/admin.html')
+      window.location.replace('admin.html')
 
     }
   }
@@ -79,7 +79,7 @@ const $logout = document.getElementById('logout')
 if ($logout) {
   $logout.addEventListener('click', (element) => {
     element.preventDefault()
-    window.location.replace('Aps-DevWeb//index.html')
+    window.location.replace('index.html')
   })
 
 }
