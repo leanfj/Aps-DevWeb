@@ -1,0 +1,70 @@
+.logomarca {
+	display: flex;
+	justify-content: center;
+}
+.logomarca img {
+	max-width: 450px;
+	max-height: 450px;
+}
+
+#menu-h ul {
+	list-style: none;
+	background-color: black;
+	text-align: center;
+	margin: 20px 15px 0px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#menu-h ul li a {
+	color: #fff;
+	padding: 30px;
+	font-size: 25px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background 0.4s;
+}
+
+#menu-h ul li a:hover {
+	background-color: var(--cor-principal);
+}
+
+#menu-h ul li:last-child a {
+	background-color: var(--cor-principal);
+}
+
+/* RESPONSIVE */
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+}
+
+/* Big screen devices (915px and above) */
+@media only screen and (min-width: 915px) {
+	#menu-h ul {
+		display: block;
+	}
+	#menu-h ul li {
+		display: inline-block;
+	}
+
+	#menu-h ul .right {
+		float: right;
+	}
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+}

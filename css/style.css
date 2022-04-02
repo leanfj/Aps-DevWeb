@@ -1,0 +1,160 @@
+.caixa_login_senha {
+	margin-top: 40px;
+	margin-left: -100px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+/* Page Content */
+.slider {
+	width: 90vw;
+	margin: 10px auto;
+}
+
+.slider .imageSlider {
+	width: 100%;
+}
+
+.pagina_instagram {
+	display: flex;
+	max-width: 90vw;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: center;
+}
+.pagina_instagram iframe {
+	padding: 10px;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contact .video {
+	order: 1;
+}
+
+.contact form {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 600px;
+	border-radius: 10px;
+	order: 2;
+}
+form h2 {
+	color: #555;
+	font-weight: 800;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+form input,
+form textarea {
+	border: 0;
+	margin: 10px 0;
+	padding: 10px 10px;
+	background: #f5f5f5;
+	font-size: 21px;
+}
+form button {
+	padding: 15px;
+	background: #ff5361;
+	color: #fff;
+	font-size: 18px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	width: 150px;
+	margin: 20px auto 0;
+	border-radius: 30px;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.titleForm {
+	font-size: 45px;
+}
+
+footer {
+	background: pink;
+	padding: 50px 0;
+	margin: 20px 15px 0px;
+}
+footer .redes {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+footer .redes a {
+	color: var(--cor-destaque);
+	text-decoration: none;
+	width: 20px;
+	height: 20px;
+}
+footer p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+footer p a {
+	color: var(--cor-destaque);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.1rem;
+	margin: 0 15px;
+}
+footer p img {
+	vertical-align: bottom;
+	width: 35px;
+	display: inline;
+}
+footer p {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* RESPONSIVE */
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+}
+
+/* Big screen devices (915px and above) */
+@media only screen and (min-width: 915px) {
+}
+
+/* Extra big screen devices (1170px and above) */
+@media only screen and (min-width: 1170px) {
+	.contact form {
+		order: 1;
+	}
+	.video {
+		order: 2;
+	}
+}
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+}
