@@ -1,26 +1,33 @@
 .logomarca {
 	display: flex;
 	justify-content: center;
+	height: 300px;
 }
 .logomarca img {
+	width: 400px;
 	max-width: 450px;
-	max-height: 450px;
+	max-height: 100%;
+	margin-bottom: 20px;
+}
+
+#menu-h {
+	font-size: 25px;
+	transition: all .5s;
 }
 
 #menu-h ul {
 	list-style: none;
 	background-color: black;
 	text-align: center;
-	margin: 20px 15px 0px;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 #menu-h ul li a {
 	color: #fff;
 	padding: 30px;
-	font-size: 25px;
 	display: inline-block;
 	text-decoration: none;
 	transition: background 0.4s;
@@ -32,6 +39,14 @@
 
 #menu-h ul li:last-child a {
 	background-color: var(--cor-principal);
+}
+
+#menu-h.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+	font-size: 16px;
 }
 
 /* RESPONSIVE */
